@@ -34,3 +34,35 @@ int main()
     return 0;
 }
 
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int idade;
+    int convite;
+
+    printf("Tem convite? digite 1 para sim e 0 para nao\n");
+    scanf("%d", &convite);
+
+    if (convite == 0){
+
+    }
+
+    printf("Qual sua idade? \n");
+    scanf("%d", &idade);
+    if (idade>=18) {
+        printf("Voce pode entrar na festa!\n");
+    }else{
+        printf("Voce nao pode entrar na festa, e preciso ter no minimo 18 anos para entrar na festa!\n");
+    }
+
+    return 0;
+
+}
