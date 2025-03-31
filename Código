@@ -66,3 +66,49 @@ int main()
     return 0;
 
 }
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char nome [45];
+    float nota1, nota2;
+    int faltas;
+    int media;
+
+    printf("Digite seu nome \n");
+    scanf("%s", &nome);
+
+    printf("Digite a nota da primeira prova \n");
+    scanf("%f", &nota1);
+
+    printf("Digite a nota da segunda prova \n");
+    scanf("%f", &nota2);
+
+    printf("Digite o numero de faltas \n");
+    scanf("%d", &faltas);
+
+    if (faltas>=15) {
+        printf("Aluno automaticamente reprovado!");
+    }else{
+        printf("Continue o processo avaliativo \n");
+    }
+
+    media = (nota1+nota2/2);
+
+    printf("A media desse aluno foi \n");
+
+
+    return 0;
+}
+
