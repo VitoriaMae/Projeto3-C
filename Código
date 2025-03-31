@@ -82,7 +82,7 @@ int main()
 int main()
 {
     char nome [45];
-    float nota1, nota2;
+    float nota1, nota2, media;
     int faltas;
     int media;
 
@@ -104,9 +104,9 @@ int main()
         printf("Continue o processo avaliativo \n");
     }
 
-    media = (nota1+nota2/2);
+    media = (nota1+nota2) / 2;
 
-    printf("A media desse aluno foi \n");
+    printf("A media desse aluno foi %f \n", &media);
 
 
     return 0;
