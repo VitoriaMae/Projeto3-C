@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char nome[45];
+    float primeiraNota;
+    float segundaNota;
+    float media;
+    int numeroFaltas;
+
+    printf("Digite seu nome:\n");
+    scanf("%s", &nome);
+
+    printf("Digite sua primeira nota:\n");
+    scanf("%f", &primeiraNota);
+
+    printf("Digite sua segunda nota:\n");
+    scanf("%f", &segundaNota);
+
+    media = (primeiraNota + segundaNota) / 2;
+    printf("Sua media e: %.2f\n", media);
+
+    if (media >= 70){
+        printf("Suas notas estao OK, agora vamos ver seu numero de faltas para ser aprovado!\n");
+    }else{
+        printf("Voce foi reprovado. E necessario ter no minimo 7.0 de media para ser aprovado!\n");
+    }
+
+    printf("Digite seu numero de faltas:\n");
+    scanf("%d", &numeroFaltas);
+
+    if (numeroFaltas <= 15){
+        printf("Suas faltas estao OK. Se voce conseguiu atingir a media, parabens! voce foi aprovado!\n");
+    }else{
+        printf("Voce foi reprovado. E necessario ter ate no maximo 15 faltas para ser aprovado!\n");
+    }
+
+    return 0;
+}
