@@ -112,3 +112,54 @@ int main()
     return 0;
 }
 
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int numero1, numero2, resultado;
+    char operadorMatematico;
+
+    printf("Digite o Operador (+, -, *, /) \n");
+    scanf("%c", &operadorMatematico);
+
+    printf("Digite o numero 1 \n");
+    scanf("%d", &numero1);
+
+    printf("Digite o numero 2 \n");
+    scanf("%d", &numero2);
+
+      if (operadorMatematico == '+') {
+        resultado = numero1 + numero2;
+        printf("O resultado da soma e: %d \n", resultado);
+
+}
+
+      else if (operadorMatematico == '-') {
+        resultado = numero1 - numero2;
+        printf("O resultado da subtracao e: %d \n", resultado);
+}
+
+      else if (operadorMatematico == '*') {
+        resultado = numero1 * numero2;
+        printf("O resultado da multiplicacao e: %d \n", resultado);
+}
+
+    else if (operadorMatematico == '/') {
+        if (numero2 != 0) {
+            resultado = numero1 / numero2;
+            printf("O resultado da divisao e: %d \n", resultado);
+        }else {
+            printf("Erro: divisao por zero nao permitida!");
+        }
+}
+
+    return 0;
+}
+
