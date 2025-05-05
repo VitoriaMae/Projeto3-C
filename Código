@@ -159,6 +159,10 @@ int main()
             printf("Erro: divisao por zero nao permitida!");
         }
 }
+         else {
+            printf("Operador invalido!");
+
+}
 
     return 0;
 }
