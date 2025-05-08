@@ -1,0 +1,9 @@
+create table if not exists Plantas(id bigint primary key auto_increment not null,
+									nome varchar(45) not null,
+                                    especie varchar(45) not null,
+                                    nome_cientifico varchar(45) not null,
+                                    idade int  not null,
+                                    quantidade int not null,
+                                    tamanho float not null,
+                                    observacoes varchar(100) not null);
+                                    
