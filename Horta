@@ -6,4 +6,23 @@ create table if not exists Plantas(id bigint primary key auto_increment not null
                                     quantidade int not null,
                                     tamanho float not null,
                                     observacoes varchar(100) not null);
+
+create table if not exists Colheitas(id bigint primary key auto_increment not null,
+									 nome_plantas_colhidas varchar(45) not null,
+									 quantidade_disponivel int not null,
+                                     plantas_colhidas varchar(45),
+                                     data_plantas_colhidas datetime not null,
+                                     observacoes varchar(100) not null
+									 );
+                                    
+create table if not exists Canteiros(id bigint primary key auto_increment not null,
+									 numero_canteiro int not null,
+                                     tamanho_canteiro float not null,
+                                     quantidade_para_repor int not null,
+                                     lugares_disponiveis_para_repor varchar (45) not null,
+                                     horario_para_regar datetime not null,
+                                     tipo_adubo varchar(45) not null,
+                                     quantidade_adubo int not null,
+                                     observacoes varchar(100) not null
+									 );
                                     
