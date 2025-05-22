@@ -165,5 +165,39 @@ int main()
 }
 
     return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nome, valor, marca, tipo, data v, código barra, quantidade, descrição
+('Ácido', '60.90', 'Azelan', 'Skin Care', '16/09/2026', '7984109952390', '10', 'Para tratamento de acne'),
+('Ácido', '55.99', 'Principia', 'Skin Care', '30/10/2026', '9032791105364', '30', 'Ácido Mix-01 e Mix-02. Ácido Mandélico. Ácido Tranexâmico. Ácido Hialurônico. Ácido Glicólico. Ácido Retinol'),
+('Ácido', '62.00', 'Creamy', 'Skin Care', '21/03/2026', '6529810331642', '30', 'Ácido Mandélico. Ácido Tranexâmico. Ácido Retinol. Ácido Glicólico. Ácido Lático. Ácido Salicílico'),
+('Ácido', '10.00', 'Acnezil', 'Skin Care', '13/02/2026', '8795210902338', '10', 'Gel Tratamento Antiacne'),
+('Hidratante', '22.99', 'Nivea', 'Skin Care', '27/09/2026', '4187013325943', '24', 'Hidratante Firmador Q10 + Vitamina C. Hidratante Milk e Soft Milk. Hidratante Beleza Radiante'),
+
+
+
+
+
+
+
+
+
 }
 
