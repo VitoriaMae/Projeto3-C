@@ -53,12 +53,6 @@ int main() {
                 }
                 break;
 
-            case 3:
-                if (quantidadeProduto <= 0) {
-                    printf("\nNao ha produtos no estoque!\n");
-                    break;
-                }
-
                 printf("\n--- VENDA ---\n");
                 printf("Quantidade desejada: ");
                 scanf("%d", &quantidadeCompra);
