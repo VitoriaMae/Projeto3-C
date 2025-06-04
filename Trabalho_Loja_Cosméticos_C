@@ -53,6 +53,7 @@ int main() {
                 }
                 break;
 
+             case 3:
                 printf("\n--- VENDA ---\n");
                 printf("Quantidade desejada: ");
                 scanf("%d", &quantidadeCompra);
